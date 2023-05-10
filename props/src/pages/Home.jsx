@@ -1,5 +1,5 @@
 import React from "react";
-import Props from "./props";
+import Props from "../day5/Props";
 
 export default function Home() {
     return (
