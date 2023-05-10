@@ -51,7 +51,7 @@ export default function Props(props) {
         <>
             {/* <User firstName = 'Asabeneh' lastName = 'Yetayeh' country = 'Finland' /> */}
 
-            <Header/>
+            <Header />
         </>
     )
 }
