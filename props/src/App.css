@@ -5,7 +5,7 @@ form {
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f6f6f6;
+    background-color: #baf3bf;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
   }
@@ -68,4 +68,16 @@ form {
     color: #f44336;
     text-align: center;
   }
-  
+
+.mainForm {
+    margin-top: 5rem;
+}
+
+body {
+    background-color: rgba(39, 138, 46, 0.842);
+    font-family: 'Roboto', sans-serif;
+}
+
+.messageBlock {
+    display: flex;
+}
