@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForm from "../components/ContantForm";
 
 export default function Props(props) {
 
@@ -110,7 +111,7 @@ export default function Props(props) {
     return (
         <>
 
-            <Skills skills={['HTML', 'CSS', 'Javascript']}/>
+            {/* <Skills skills={['HTML', 'CSS', 'Javascript']}/> */}
             {/* <User firstName = 'Asabeneh' lastName = 'Yetayeh' country = 'Finland' /> */}
 
             {/* <Header1 /> */}
@@ -129,7 +130,7 @@ export default function Props(props) {
             /> */}
 
 
-
+            <ContactForm />
         </>
     )
 }
